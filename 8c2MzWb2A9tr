@@ -1,0 +1,32 @@
+From just a few days after the last release, I've decided to publish **Galaxy Traveler 13** implementing some small but important hotfixes, some of them being suggested by C梓C.
+
+**Credentials Retriever** CHANGELOGS
+
+- Fixed the black background, buttons and texts going out of bound on Windows app scaling set to 150%.
+
+**Galactic Player** CHANGELOGS
+
+- I've finally managed to learn how to add support for .mp3 format audio files [Requested by C梓C].
+- Added **"ESC"** keybind for deselecting songs from list.
+- When no song is selected and "Play" is pressed, the program will play every music in order.
+- Added **"Shuffle"** and **"Repeat"** features.
+- Added **"Skip" **button.
+- Ability to add tracks by drag and dropping.
+- Since this component became a little more flexible for being used as an actual simple audio player, the track **"Galaxy Traveler's Originals.mp3** can now be removed.
+
+**Fluxwave** CHANGELOGS
+
+- I've finally managed to fix the infinite amount of bugs that occurred when selecting a font or saving text files, causing mismatching selected fonts on load.
+- The program will now notify the user to save changes only when edits are actually detected. Sorry lol I fucking hate coding
+
+**DOWNLOADS CAN BE FOUND ON OUR FORUM**
+
+⚠️ **NOTE:** If you're **updating from version 12, THERE'S NO NEED TO RE-REGISTER!** But if you're coming from a version lower than 12 and you've lost your License and Password, contact me through Vault's DMs. 
+
+⚠️**DON'T FORGET TO BACKUP YOUR CREDENTIALS!**⚠️
+
+If you have other bugs to report or feature suggestions, text us through the Vault site!
+
+Starting from now I'll not actually update the program futher unless it's not strictly needed, **we're focusing on updating the already available programs for 💲DONATORS💲  and some new very exciting exclusive releases for 🎀  𝒱𝐼𝒫  🎀 members!** 
+
+Stay tuned, Cherry loves you 💕
