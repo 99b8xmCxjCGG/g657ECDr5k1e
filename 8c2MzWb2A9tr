@@ -1,1 +1,61 @@
-We're back online :3
+Software Engineering Software Bundle coming soon for Donators:
+
+It is a package of software files that will help you reverse engineer faster, more efficient, and with ease. The bundle contains:
+
+Dumpers (Scylla, PD64, Kernel Dumper, .NET Dumper)
+
+Debuggers (x64dbg, WinDbg, DBVM, .NET Tracer) [Contains various anti-anti-debug, and helper plugins for undetected debugging]
+
+Disassemblers (Binary Ninja 4.0, IDA Professional 9.0, dnSpy) [Contains various helper plugins for smoother disassembly]
+
+Static and Dynamic Unpackers (Themida, VMProtect, Enigma, Code Virtualizer)
+
+Deobfuscators (Alcatraz, ConfuserEx, VMProtect, Themida, Enigma, Code Virtualizer, Winlicense)
+
+Memory Editors (CosMos, Cheat Engine)
+
+Data Editors (HxD, CFF Explorer)
+
+File Information Tools (Detect It Easy, CFF Explorer)
+
+Custom Undetected Virtual Machine Configuration File (Windows Sandbox)
+
+Runtime Opcode Patcher
+
+Embedded PE Extractor
+
+Process Monitoring Tools
+
+Secure Boot EFI Bypass
+
+List of Byte Patterns for Important PE Functions/Variables
+
+DLL Dispatch Patterns
+
+Example C++/MSVC Source Codes (Hooking Win32 APIs, Invoking Specific Functions/Addresses Internally, Bypassing Anti-Debug Techniques)
+
+Instructions on how to fix OEP, Import Table, Checksum, Sections Characteristics.
+
+===========================================
+Galaxy Traveler 15 IS OUT!
+
+Chantgelog:
+
+Fixed some minor errors with GalacticPlayer
+Fixed Misc > Forum and Cracking > BTDigg redirecting to the wrong site, the following sites were added:
+
+Softoroom
+CyberMania
+ElAmigosGames
+
+And the following was removed:
+
+LeakBase (Down)
+
+HOW TO UPDATE:
+
+Uninstall old version and install the new one displayed on Forum's home.
+
+It will preserve your license, unless you're not using something under 14. License auth server using 14 got fucked anyway and i refused to maintain those lmao
+
+NOTE: Version 15 is falsely flagged as a virus by some antiviruses, but you will 100% run the program without putting the whole folder into exclusion and hop crying in my dms because you're retarded anyway
