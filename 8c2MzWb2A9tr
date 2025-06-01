@@ -1,61 +1,18 @@
-Software Engineering Software Bundle is now out for Donators:
+MANY NEW PROGRAMS RELEASES AND IMPORTANT UPDATES!
 
-It is a package of software files that will help you reverse engineer faster, more efficient, and with ease. The bundle contains:
+Recently we've been collaborating with @zylo for exchanging source codes and valuable material, recently his server just closed due to retards and he just made the choice to protect his stuff under our paywall. Some imgui source codes are already being distributed for VIP members, he also already shared a keyauth bypasser and a trial bypass for exitlag, for more info about those contact me in DM.
 
-Dumpers (Scylla, PD64, Kernel Dumper, .NET Dumper)
+For making our products more user friendly I've also released Galaxy Traveler 15.17, which adds a new feature under Options > Use Default Browser, links will be opened through user's default browser instead of the integrated Galaxy Traveler's browser.
 
-Debuggers (x64dbg, WinDbg, DBVM, .NET Tracer) [Contains various anti-anti-debug, and helper plugins for undetected debugging]
+BUT WHY VERSION 15.17 AND NOT JUST FROM 16 TO 17?,
+Our Administrator "@Air" made us notice that our program was dangerously becoming closer to version number 18, so for reason that we can't disclose we'll keep it 15 and 17 days, thank you for the contribution!
 
-Disassemblers (Binary Ninja 4.0, IDA Professional 9.0, dnSpy) [Contains various helper plugins for smoother disassembly]
+NEW PROGRAMS:
 
-Static and Dynamic Unpackers (Themida, VMProtect, Enigma, Code Virtualizer)
-
-Deobfuscators (Alcatraz, ConfuserEx, VMProtect, Themida, Enigma, Code Virtualizer, Winlicense)
-
-Memory Editors (CosMos, Cheat Engine)
-
-Data Editors (HxD, CFF Explorer)
-
-File Information Tools (Detect It Easy, CFF Explorer)
-
-Custom Undetected Virtual Machine Configuration File (Windows Sandbox)
-
-Runtime Opcode Patcher
-
-Embedded PE Extractor
-
-Process Monitoring Tools
-
-Secure Boot EFI Bypass
-
-List of Byte Patterns for Important PE Functions/Variables
-
-DLL Dispatch Patterns
-
-Example C++/MSVC Source Codes (Hooking Win32 APIs, Invoking Specific Functions/Addresses Internally, Bypassing Anti-Debug Techniques)
-
-Instructions on how to fix OEP, Import Table, Checksum, Sections Characteristics.
-
-===========================================
-Galaxy Traveler 15 IS OUT!
-
-Changelog:
-
-Fixed some minor errors with GalacticPlayer
-Fixed Misc > Forum and Cracking > BTDigg redirecting to the wrong site, the following sites were added:
-
-Softoroom
-CyberMania
-ElAmigosGames
-
-And the following was removed:
-
-LeakBase (Down)
-
-HOW TO UPDATE:
-
-Uninstall old version and install the new one displayed on Forum's home.
-
-It will preserve your license, unless you're not using something under 14. License auth server using 14 got fucked anyway and i refused to maintain those lmao
-
-NOTE: Version 15 is falsely flagged as a virus by some antiviruses, but you will 100% run the program without putting the whole folder into exclusion and hop crying in my dms because you're retarded anyway
+AutoCAD Autodesk | 2026 (EASIER THAN EVER TO INSTALL!),
+Inventor Autodesk | OEM 2022,
+Android CHANNEL | CHECK FOSSCORD!! (thanks @clau),
+PowerISO Updated to 9.1,
+DiscordDatabaseSIC Scaper tool is now more stable and optimized with new features! It is highly recommended to redownload it for scrapers.,
+Spotify Desktop crack updated to version 1.2.64.408,
+Advanced Systemcare Ultimate Updated to version 17.4.0.125
