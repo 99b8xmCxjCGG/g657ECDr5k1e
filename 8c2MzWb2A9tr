@@ -44,6 +44,10 @@
 **- Topaz Video AI Pro 7.1.1 (x64)**  
 **- Topaz Gigapixel AI 8.4.2 (x64)** _[PRESERVED 8.3.4 FOR AVX ISSUE ON TOPAZ'S SIDE]_
 
+**"HACKING" LIBRARY** 
+
+**- Burp Suite Professional 2025.6.4**
+
 **"VMWARE" LIBRARY**  
 
 **- ADDED NEW OOBE STARTUP ALIKE COMMAND FOR BYPASSING MICROSOFT LOGIN SCREEN AS A SOLUTION TO RECENT PATCHES:** *start ms-cxh:localonly* 
