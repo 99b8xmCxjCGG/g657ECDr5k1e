@@ -1,6 +1,6 @@
 I've dropped **Galaxy Traveler 22**, dropping some very important changes to how user Data is stored and handled, for the users who have already registered once and need to re-register, the process is now easier.
 
-**ADDED THE FOLLOWING FEATURES** UNDER ** OPTIONS > MAINTENANCE CASCADE MENU**:
+**ADDED THE FOLLOWING FEATURES** UNDER **OPTIONS > MAINTENANCE CASCADE MENU**:
 
 **- Backup user data**
 **- Load User Data Backup**
