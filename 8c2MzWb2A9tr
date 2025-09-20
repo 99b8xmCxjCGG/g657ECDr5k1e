@@ -1,3 +1,30 @@
+I've dropped **Galaxy Traveler 22**, dropping some very important changes to how user Data is stored and handled, for the users who have already registered once and need to re-register, the process is now easier.
+
+**ADDED THE FOLLOWING FEATURES** UNDER ** OPTIONS > MAINTENANCE CASCADE MENU**:
+
+**- Backup user data**
+**- Load User Data Backup**
+**- Clear User Data**
+**- Backup Credentials**
+**- Also featuring checkable feature "Use Default Browser for Custom Links"**
+
+**UNDER MISC:**
+
+- Added **Custom** under **Misc**, you will be able to add and remove your custom links.
+
+**GENERAL QOF IMPROVEMENTS:**
+
+- Program will remember last resolution on closure
+- User data will be stored inside **C:\Users\Administrator\AppData\Local\SunsetClub**
+- Ability to automatically insert credentials through your credentials' backup during registration.
+- When logging out, **"Backup and Logout"** alongside **Logout without Backup**, which will automatically backup your credentials on logout but not your license information.
+
+Pictures: https://imgur.com/a/zF1mpQr
+
+⚠ **BY THE START OF OCTOBER, OUR NETWORK WILL BE COMPLETELY DOWN FOR BACKUPPING PURPOSES. WHEN WE WILL BE BACK ONLINE, WE'LL MOST LIKELY RELEASE ANOTHER GALAXY TRAVELER UPDATE REINFORCING VERSION 22 FEATURES EVEN MORE.** ⚠
+
+=============================================
+
 We've updated the **Galaxy Traveler** showcases alongside some other updates and releases!
 
 - **Galaxy Traveler** new showcase video: https://www.youtube.com/watch?v=EJzd2vT_E9Q ( Credits to @jakzwo )
