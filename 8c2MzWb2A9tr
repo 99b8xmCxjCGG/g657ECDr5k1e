@@ -1,39 +1,10 @@
-I've dropped **Galaxy Traveler 22**, dropping some very important changes to how user Data is stored and handled, for the users who have already registered once and need to re-register, the process is now easier.
+We're back from the backup process, **your data is now secured from any incidents!**
 
-**ADDED THE FOLLOWING FEATURES** UNDER **OPTIONS > MAINTENANCE CASCADE MENU**:
+**UPDATES:**
 
-**- Backup user data**
-**- Load User Data Backup**
-**- Clear User Data**
-**- Backup Credentials**
-**- Also featuring checkable feature "Use Default Browser for Custom Links"**
-
-**UNDER MISC:**
-
-- Added **Custom** under **Misc**, you will be able to add and remove your custom links.
-
-**GENERAL QOF IMPROVEMENTS:**
-
-- Program will remember last resolution on closure
-- User data will be stored inside **C:\Users\Administrator\AppData\Local\SunsetClub**
-- Ability to automatically insert credentials through your credentials' backup during registration.
-- When logging out, **"Backup and Logout"** alongside **Logout without Backup**, which will automatically backup your credentials on logout but not your license information.
-
-Pictures: https://imgur.com/a/zF1mpQr
-
-⚠ **BY THE START OF OCTOBER, OUR NETWORK WILL BE COMPLETELY DOWN FOR BACKUPPING PURPOSES. WHEN WE WILL BE BACK ONLINE, WE'LL MOST LIKELY RELEASE ANOTHER GALAXY TRAVELER UPDATE REINFORCING VERSION 22 FEATURES EVEN MORE.** ⚠
-
-=============================================
-
-We've updated the **Galaxy Traveler** showcases alongside some other updates and releases!
-
-- **Galaxy Traveler** new showcase video: https://www.youtube.com/watch?v=EJzd2vT_E9Q ( Credits to @jakzwo )
-- **CyberTriage Pro** | 3.15.0
-- **IDA Pro 9.2.250904 WIN, MACOS, LINUX + Keygen v2** | LIFETIME LICENSE
-- **iTubeGo Pro** | 10.8.2
-- **Media Gallery Webapp** | Easy to run imageboard
-- **FL Studio 25 Producer Edition + FLEX Complete Expansion Bundle** | All Plugins Edition **v25.1.5 Build 4976**
-
-https://imgur.com/a/3vTWSRP
-
-⚠ **HELPER ROLE GOT OFFICIALLY ANNIHILATED FROM EXISTANCE DUE TO THEIR INABILITY TO KEEP UP WITH THE CONTRIBUTIONS AND VERY POOR COMMUNITY ENGAGEMENT QUALITY** ⚠
+- **Galaxy Traveler 23:** Featuring some minor bugfixes, such as Dark Mode not loading on program startup, Announcements tab displaying some links incorrectly, other minor changes for making the client more user friendly, added MIDI and OGG audio files support for Galactic Traveler...
+- **Cellebrite UFED 7.71.0.1858**: This is the best and most famous program worldwide used by the Police and the FBI for investigation purposes, known as the most powerful tool for data recovering and analysis. Check our Vault's HACKING channel or Vault's Repository library for more info!
+- **Magned AXIOM Process & Examine 5.4.0.26185**: Another forensic tool police uses, similar to Cellebrite UFED.
+- **Web Directory Downloader**: This program is a simple recursive web-directory downloader. It visits a web directory listing (an HTML page that lists files and subfolders), downloads every file it finds, and reproduces the directory structure locally. It is intended for downloading public directory listings (for example: backups you host, sample datasets you control, or other content you have permission to copy).
+- **AOMEI Backupper 8.0**
+- **Spotify Desktop 1.2.68.528**
