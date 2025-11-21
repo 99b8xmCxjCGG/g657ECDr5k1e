@@ -1,26 +1,20 @@
-The **Hacking** channel just welcomed a huge amount of new programs we highly suggest to check out!
+**Galaxy Traveler 26CE** is OUT!
 
-**OpenBAS** | 1.18.20
-**OpenCTI** | 6.8.3
-**PingCastle** | 3.3.0.1 LIFETIME
-**Flawnter** | WIN X64 X32, LINUX, MAC-AARCH64, MAC-X64 **5.9.1 LIFETIME (WORKS ON LATEST)**
-**Shellter Pro** | 4.7
-**Metasploit Pro** | v6.4.36-dev **(WORKS ON LATEST)**
-**Maltego** | 4.2.11.13104 **XL**
-**HCL AppScan Standard** | v10.8.1.28513 Pro
-**xRay Web Vulnerability Scanner Advanced** | v1.9.11 Pro
-**Binalyze Tactical Edition** | v2.8.8 
-**BackdoorFactory** | 2024 Leak
-**THOR APT Scanner PRO** | 10.7.17 Windows
-**VShell 4.6.0** | Windows, Linux
-**ntopng Enterprise** | 6.1.240820-x64
-**SmartScanner Pro** | 1.23
+**Changelog:**
 
+- After improving our Forum's security, we've radically changed the protection layers of our software too (Current licenses will be valid)
 
-**NEW CHANNEL HAS BEEN ADDED ON VAULT:**
+- Galaxy Traveler's **"Party Mode"** will be remembered active on next program run.
 
-〘🗃️〙ASSETS
+- Fixed an issue where when Licenses' domain was partially unavailable, it would've triggered an anti-piracy measure, deleting user's license files.
 
-**GALAXY TRAVELER 25 IS OUT WITH A NEW SECTION DEDICATED TO RIPPED ASSETS**
+- Galaxy Traveler's license login form **"Submit"** button has been renamed to **"Request Gateway"** for making it more user friendly.
 
-https://imgur.com/a/eBNH8xG
+- **Galactic Player** window is now shorter for fitting on 1920 x 1080 125% resolutions, program will now remember last volume used on next runs.
+
+- **Rine** now features "Repeat loop: HH:MM:SS" and "Close button should minimize the Rine window" features, it will remember user's preferences on next program run, fixed checkboxes' broken outlines.
+
+- **Chromaflow** will now remember selected **"Translate From"** and **"Translate To"** languages on next program run.
+
+**Rine:** https://i.imgur.com/shfw38a.png
+**Galactic Player:** https://i.imgur.com/OW1cBul.png
