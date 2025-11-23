@@ -18,3 +18,14 @@
 
 **Rine:** https://i.imgur.com/shfw38a.png
 **Galactic Player:** https://i.imgur.com/OW1cBul.png
+
+-------------------------------
+
+**Quick version 27 fix changelogs:**
+
+- Added "Slow start fix" under maintenance for acknowledging Windows' IPv6 bugs.
+- Added **"TurboScribe"** under **Misc > Other** and **Gemini** under **Misc > AI**.
+- With **Rine** you can now add a specific date for an alarm to trigger. (I'm not updating this widget any further after this one)
+- Added **.midi** extension support to **GalacticPlayer**.
+- Minimum allowed Python version is now **3.11.0**.
+- Every line of code referring to "Helper" __cringe role__ finally got removed.
