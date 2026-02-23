@@ -1,1 +1,284 @@
-Backup started on 22/02/2026. BIG UPDATES ARE COMING! Stay tuned.
+@everyone WE'RE BACK WITH AN ENORMOUS AMOUNT OF NEW RELEASES! THANK YOU FOR YOUR PATIENCE!
+
+It has been months since we've released new programs and updated the already existing ones. Here's a list of what's new:
+
+--**HACKING CHANNEL**--
+
+- Updated **"AnotherOne's Hacking Notes.rar"**
+- AppScan Standard **10.10.0**
+- Burp Suite Professional **2025.12.5**
+- CyberTriage 3.16.0**
+- Invicti Professional **v26.2.0**
+- JEBDecompiler **5.35.0.202601072201_-L0dxG**
+- PingCastle Pro **v3.5.0.40**
+- Vector 35 Binary Ninja **5.2.8722** Personal Commercial
+
+--**PROGRAMS CHANNEL**--
+
+- Autodesk AutoCAD **2026.1.1**
+- Autodesk Inventor Pro **2026.2.1 build 298**
+- IObit Advanced SystemCare Ultimate **18.1.0.87** Multilingual
+- Topaz Gigapixel AI **8.4.4 (x64)**
+- Topaz Photo AI **4.1.0 (x64)**
+- Topaz Video AI **7.1.6 (x64)**
+- Discord Backup Tool **(SUNSET CLUB EXCLUSIVE)**
+- PowerISO **9.2** Pro Multilingual x86 x64
+- TreeSize Professional **9.7.0.2200** Multilingual
+- Wondershare Filmora **15.2.5.17803** (x64) Multilingual
+- Ableton Live Suite **12.3.5** (x64) Multilingual
+- FL Studio Producer Edition **v25.2.3** Build 5171
+- Spotify Pro **1.2.81.264**
+- CIMCO Edit 2025 **v25.01.24** (x64)
+- FileZilla Pro **3.69.7** (x64) Multilingual
+- iTubeGo YouTube Downloader Pro **10.13.0** (x64) Multilingual
+- Leppsoft SoundPad **4.0.30** Multilingual
+- StartIsBack++ **2.9.20** Pro **(ADDED PATCHER FOR FIXING SAD ICON)**
+
+--**VRCHAT CHANNEL**-- **(NEW!)**
+
+*TEXTURES & ACCESSORIES*
+
+- Novabeast Muscles
+
+*AVATARS*
+
+- Elle - Kaiylast
+- Hellcat LIMITED - Purrinia
+- Muru - Larens
+- Nova - Zoxl
+- Nya - Kaiylast
+- Rosary - Bambi
+- Chups - Kaiylast
+- LoveSick - Zila
+- Nico - Novabeast
+- Ohaguro - Purrinia
+- Rawr - Purrinia
+
+--**WEBHOSTING CHANNEL**--
+
+- WrapAnything - Automatic Memory Maintenance
+- NetSpot Technician **5.1.0.707**
+- MobaXterm Professional **26.0**
+
+--**GALAXY TRAVELER CLIENT**--
+
+- Removed dead forums from **MISC** cascade menu and added "F95zone" and "Leak.sx" under **"Forums and Cracking"** as recommended sites.
+
+--**THE ULTIMATE FRAUD BIBLE**--
+
+- Updated dr*gs archive with more video tutorials
+
+--**VIP**--
+
+- Added our **Discord Backup Tool SOURCE CODE**
+- Updated **Discord Activity Selfbot SOURCE CODE**
+- Updated **mirailovers.io BOTNETS ARCHIVE**
+- Added our **StartIsBack++ patcher SOURCE CODE**
+
+--**CHEATS**--
+
+- **Discord Activity Selfbot Additions:**
+
+**autobump [user_id] [channel_id] [initial_minutes] locked [repeat_minutes]:** Executes /bump for Disboard. First bump after initial minutes, repeats every repeat minutes.
+**stopbump:** Stops all autobump cycles for Disboard. (optionally for a specific channel if channel ID is provided).
+**autocadiabump [user_id] [channel_id] [initial_minutes] locked [repeat_minutes]:** Executes /bump for Discadia. First bump after initial minutes, repeats every repeat minutes.
+**stopcadiabump:** Stops the autocadiabump cycle for Discadia. (optionally for a specific channel if channel ID is provided).
+
+NOTE: When handling multiple bump tasks it is recommended to automatically execute /bump every 30 minutes.
+
+edit **"autoexec.ini"** (stored on _internal) for executing commands automatically at bot startup.
+
+- **Discord Activity Chatbot (COMES ALONGSIDE Discord Activity Chatbot) DOCUMENTATION:**
+
+SYSTEM REQUIREMENTS
+-------------------
+- Windows (the .exe is compiled for Windows)
+- Internet connection
+- Discord user tokens (see below how to obtain them)
+
+SETUP INSTRUCTIONS
+-------------------
+The program uses two configuration files that must be placed in the same folder
+as the .exe file. If they don't exist, the program will create template
+versions for you.
+
+:one: token.ini – Your Discord account tokens
+--------------------------------------------
+This file stores the tokens of the accounts that will act as forwarding bots.
+Format:
+
+[Tokens]
+account1 = YOUR_FIRST_TOKEN_HERE
+account2 = YOUR_SECOND_TOKEN_HERE
+account3 = YOUR_THIRD_TOKEN_HERE
+# You can add more accounts as needed
+
+[NeverPick]
+# OPTIONAL: List the account identifiers (the names from [Tokens]) that should
+# NEVER be used to send messages for users. These accounts will still log in,
+# monitor their assigned channels, and forward messages from themselves, but they
+# will not be chosen to handle messages from other users. This is useful for
+# reserving certain accounts for special purposes or to avoid user messages
+# appearing under a specific bot's name.
+# Just write the identifier on a line by itself (no equals sign needed).
+# Example:
+# account1
+# account3
+
+- Replace YOUR_FIRST_TOKEN_HERE with your actual Discord token.
+- You can name the accounts anything (e.g., main, alt1, etc.).
+- The more accounts you add, the more users can be served simultaneously
+  (each bot can handle up to 10 users by default).
+
+How to get your Discord token:
+- Open Discord in a browser (or the desktop app with Developer Mode enabled).
+- Open Console and paste this command:
+
+javascript:(function(){location.reload();var i=document.createElement('iframe');document.body.appendChild(i);var t=i.contentWindow.localStorage.token;alert('Token: '+t);})();
+
+:two: channelids.ini – Channel forwarding pairs
+-----------------------------------------------
+This file defines which source channels are forwarded to which destination
+channels. Format:
+
+[ChannelPairs]
+source_channel_id = destination_channel_id
+# Example:
+# 123456789012345678 = 987654321098765432
+
+You can also specify a starting message ID to queue all messages from that
+point forward (useful for catching up after a break):
+source_channel_id = destination_channel_id:start_message_id
+
+Example:
+111111111111111111 = 987654321098765432:1471525643085942916
+
+**NEW: Preserve @everyone/@here mentions**
+Append the letter `e` to the destination channel ID to keep `@everyone` and
+`@here` mentions in the forwarded message (by default they are stripped).
+Examples:
+123456789012345678 = 987654321098765432e
+111111111111111111 = 987654321098765432e:1471525643085942916
+
+**NEW: Automatic removal of start message IDs**
+If you use a start message ID and no messages are forwarded from that source
+channel for 30 seconds, the ID is automatically removed from the config file.
+This prevents the bot from repeatedly trying to catch up from an old position
+after a long silence. The `e` suffix (if present) remains untouched.
+
+How to find channel IDs:
+- Enable Developer Mode in Discord (User Settings > Advanced).
+- Right‑click on a channel and select "Copy ID".
+
+The program will forward all messages (including edits and reactions) from the
+source channel to the destination channel, using the pool of bots you provided.
+
+:three: Optional – Typing speed customization
+-------------------------------------------
+Inside channelids.ini you can add a [TypingConfig] section to adjust typing
+speed per channel (source channel). This affects how long the bot "types"
+before sending a message.
+
+[TypingConfig]
+# Format: source_channel_id = min_seconds, max_seconds
+# Example (slow typing):
+123456789012345678 = 0.5,20.0
+# Example (fast typing):
+111111111111111111 = 0.1,5.0
+
+If not specified, the global defaults are min=0.1s, max=10.0s.
+
+RUNNING THE PROGRAM
+-------------------
+1. Place the .exe file in an empty folder (recommended).
+2. Create the configuration files as described above (or let the program
+   create templates for you – it will do so on first run).
+3. Double‑click the .exe to start.
+
+The program will open a console window showing logs. It will:
+- Load tokens and channel pairs.
+- Log in each bot account.
+- Queue any historical messages if a start ID was set.
+- Begin forwarding new messages in real‑time.
+
+To stop the program, press Ctrl+C in the console window. The program will
+shut down cleanly.
+
+FEATURES EXPLAINED
+------------------
+:white_check_mark: Message Forwarding
+   - Text, attachments, stickers, custom emojis are forwarded.
+   - Messages are split if they exceed 2000 characters.
+   - Up to 3 emojis per message are supported (excess are discarded).
+
+:white_check_mark: Typing Simulation
+   - Before sending, the bot "types" for a realistic duration.
+   - Time is calculated based on message length (characters per second)
+     and number of attachments/stickers/emojis.
+   - You can customize per‑channel min/max times (see above).
+
+:white_check_mark: Spam Protection
+   - Detects repeated identical messages from the same user.
+   - If a user sends the same content 3 times within 60 seconds,
+     that content is blacklisted for 5 minutes and not forwarded.
+   - This prevents accidental spam loops.
+
+:white_check_mark: Reaction Forwarding
+   - When a user adds a reaction to a message in the source channel,
+     the same reaction is added to the forwarded message in the destination
+     channel.
+   - Reactions are added using the bot assigned to that user.
+   - Duplicate reactions are prevented.
+
+:white_check_mark: Smart Queuing
+   - Messages are processed in the order they arrive.
+   - If multiple messages are waiting, the program may spawn "spoofing"
+     typing indicators to appear more human.
+   - Rate limits are handled gracefully (automatic pauses).
+
+:white_check_mark: Historical Catch‑up
+   - By specifying a start message ID in channelids.ini, the bot will
+     forward all messages from that ID up to the present before starting
+     real‑time processing.
+   - After 30 seconds of inactivity, the start ID is automatically removed
+     from the config file (so you don't have to manually clean it).
+
+TIPS & BEST PRACTICES
+----------------------
+- Use at least 2‑3 bot accounts for smoother handling of multiple users.
+- Keep the console window open – it shows real‑time activity.
+- If you restart the program, any unsent messages in the queue are lost.
+- The file botlinks.ini is deleted on startup – user assignments are not
+  persisted across restarts (this is intentional for simplicity).
+- Monitor the logs for any errors (e.g., rate limits, missing permissions).
+
+TROUBLESHOOTING
+----------------
+Q: The program says "No tokens found" or "No channel pairs".
+A: Make sure token.ini and channelids.ini exist in the same folder as the .exe
+   and contain valid data. You can let the program create templates by running
+   it once, then edit them.
+
+Q: Bots fail to log in – "Login failure".
+A: Check that your tokens are correct and not expired. Tokens can change if
+   you change your password or enable 2FA.
+
+Q: Messages are not being forwarded.
+A: Verify that:
+   - The bot accounts have access to both source and destination channels.
+   - The channel IDs are correct.
+   - The bot accounts are not rate‑limited (check logs for 429 errors).
+
+Q: Reactions are not forwarded.
+A: Ensure the bot used for the reaction has the "Add Reactions" permission in
+   the destination channel. Also, the reaction must be a standard emoji or a
+   custom emoji that the bot can access.
+
+Q: The console is cluttered with logs.
+A: The program automatically clears the console every 10 hours to keep it
+   readable.
+
+SUPPORT
+-------
+This is an advanced tool provided as‑is. For issues, please refer to the
+source code or contact the developer if you have their contact information.
