@@ -1,1 +1,84 @@
-The server is currently down for backupping purposes **since Saturday, 18 April 2026 23:19:20 (UTC).**
+> *Our portal backup is complete. While you were away, the constellation shifted.*  
+> *New tools. Tighter bots. Forbidden leaks. More secure vault.*  
+
+---
+
+### :robot: **DISCORD ACTIVITY SELFBOT** / *Precision Automation Overhaul*  
+
+▸ **VC Autojoin Resilience** / User bots no longer fail on connection handshakes.  
+ ‣ Fully adapted to the latest **`discord.py-self`** build.  
+
+▸ **Command Consistency**  
+ ‣ **`autobump`** & **`autocadiabump`** now execute flawlessly / no more timing misses or silent failures.  
+
+▸ **`autoexe.ini` Stabilization**  
+ ‣ Automatic command execution on startup behaves *exactly* as configured. No phantom runs.  
+
+---
+
+### :speech_balloon: **DISCORD ACTIVITY CHATBOT** — *Smarter Presence Mimicry*  
+
+▸ **Status Priority Logic**  
+ ‣ Now simulates activity **primarily** on `Online`, `Do Not Disturb`, or `Idle` targets.  
+ ‣ `Invisible` mode is selected **much more rarely** — blending in more naturally.  
+
+▸ **Emoji Render Fix**  
+ ‣ **Discord Lottie (`.json`) Emojis** now convert correctly to **GIF** format during processing.  
+ ‣ No more broken placeholders in your animated messages.  
+
+---
+
+### :frame_photo: **UNIQUE IMAGES** — *Fortified Vault Access*  
+**`Site Update`** · Anti‑Scraping Protocol  
+
+> **:closed_lock_with_key: Password Protection Active**  
+> The image board now requires credentials to browse. This thwarts aggressive scrapers and keeps the collection exclusive.  
+
+**Where to find the key:**  
+1. Open **Galaxy Traveler Client**  
+2. Navigate to `Gateway` → `Vault`  
+3. Locate the **`#unique-images`** channel  
+4. The password is stored there. :key:
+
+---
+
+### :brain: **INTRODUCING: DISCOBOLD** — *AI Self‑Bot for KoboldCPP*  
+
+> *"Your character. Your story. His response."*  
+
+**Discobold** is a standalone Discord self‑bot that bridges your client with a **KoboldCPP** instance to generate dynamic, AI‑driven replies.  
+
+**:gear: How It Works**  
+Discobold is a Discord self‑bot that connects to a KoboldCPP instance to generate
+AI‑driven responses. You provide a configuration file (config.json) and run the
+Discobold.exe executable. The bot listens to messages in allowed channels or DMs,
+builds a prompt using your character and story, sends it to Kobold, and replies
+with realistic typing simulation. More info inside our **Vault** site, **AI** channel.
+
+**:package: Included in this release:**  
+`Discobold.exe` + Sample `config.json`  
+
+---
+
+### :construction_site: **GTA DEVELOPMENT ARCHIVES** — *Leaked & Polished*  
+**`Exclusive Access`**  
+
+▸ **GTA IV (EXTREMELY RARE Leaked Dev Build)**  
+ ‣ Now available for **VIP** members inside the archive. Explore pre‑release Liberty City.  
+
+▸ **GTA V Source Code Build Tutorial — *Revised***  (FOR VIPS)
+ ‣ **No more VM dependency**. The guide has been rewritten for **direct main‑machine compilation**.  
+ ‣ All common build errors (deps, paths, toolchain) are now pre‑emptively resolved.  
+ ‣ *"It just builds."*  
+
+---
+
+### :pushpin: **NOTES & UPDATES**  
+- **Discobold** requires a running **KoboldCPP** instance with API enabled.  
+- The **Unique Images** password is **not** the same as your client login. Check the Vault.
+
+https://imgur.com/a/Z3RnD8f
+
+> *— Galaxy Traveler Core*  
+
+╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
