@@ -1,84 +1,71 @@
-> *Our portal backup is complete. While you were away, the constellation shifted.*  
-> *New tools. Tighter bots. Forbidden leaks. More secure vault.*  
+@everyone **EXTREMELY IMPORTANT** ANNOUNCEMENT FOR **THORIUM BROWSER** AND **SUNSET OS **USERS
 
----
+Hey everyone, I want to talk about something important regarding the Thorium browser updater. For those who don't know, Thorium is a Chromium fork that's optimized for performance on older and modern hardware alike, with a focus on speed and compatibility. Many of us choose it over mainstream browsers because it strips out a lot of telemetry and extra bloat, often running faster on systems where Chrome would struggle. But like any browser, it needs to be kept current.
 
-### :robot: **DISCORD ACTIVITY SELFBOT** / *Precision Automation Overhaul*  
+The problem is that the ltguillaume updater for Thorium (https://github.com/ltguillaume/chromium-winupdater), which many have been relying on, hasn't seen active development in quite some time. ltguillaume essentially stopped maintaining it, and the project is now in a state where it can't properly handle newer releases. The code itself has several issues. For instance, the version comparison logic is flawed and doesn't correctly handle the way version tags are formatted now. It also relies on a hardcoded checksum verification routine that doesn't actually execute properly in the compiled version because it is skipped entirely, meaning there is no integrity check for downloaded files. The code also uses a dangerous fallback that attempts to elevate privileges in ways that are not safe and can lead to permission errors. The scheduled task creation uses an old method with a PowerShell script that often fails on modern Windows systems due to execution policy restrictions. The extraction routine for portable versions is brittle and can fail if the archive structure changes. Furthermore, the update self mechanism is overly complicated and can corrupt its own installation during an update, which leaves the updater broken while the browser itself remains outdated.
 
-▸ **VC Autojoin Resilience** / User bots no longer fail on connection handshakes.  
- ‣ Fully adapted to the latest **`discord.py-self`** build.  
+The entire AHK script is a mess of global variables and procedural spaghetti that makes it hard to follow and even harder to fix. For example, the checksum verification function is defined but never actually called, so you are essentially downloading files blindly without any validation. The portable extraction logic tries to move files individually and check hashes but fails to handle locked files or permissions, which is a common problem when the browser is still running. There is also no real error handling for network issues, so it will just crash or hang silently. The entire thing feels like it was cobbled together without proper testing on different system configurations.
 
-▸ **Command Consistency**  
- ‣ **`autobump`** & **`autocadiabump`** now execute flawlessly / no more timing misses or silent failures.  
+So I took the initiative to rewrite the entire updater from scratch. My version is written in Python and compiled into a clean executable, so there is no need for AutoHotkey or any external dependencies. I have implemented a proper download routine with actual SHA-256 checksum verification to ensure file integrity. The version comparison logic is now using a proper semantic versioning parser, so it can handle the various tag formats that Alex uses in his releases. The installation process now supports both the standard installer and the portable zip archives, and it intelligently handles the extraction without corrupting files. The scheduled task creation uses a robust PowerShell script that correctly sets up the task with the right triggers and permissions. I also added a proper GUI that gives real-time feedback, progress indicators, and a log so you know exactly what is happening. The entire code is modular and well-structured, making it easy to maintain. Most importantly, my updater actually works reliably across different Windows setups, whether you are using the installed version or the portable one. It will check for updates from multiple repository sources, correctly identify the right build for your CPU, and download the proper files without any guesswork. You can download my version as a standalone executable, and it will handle everything from checking your current version to applying the update seamlessly.
 
-▸ **`autoexe.ini` Stabilization**  
- ‣ Automatic command execution on startup behaves *exactly* as configured. No phantom runs.  
+**FOR SUNSET OS USERS:**
 
----
+**HOW TO REMOVE OLD THORIUM UPDATER**
 
-### :speech_balloon: **DISCORD ACTIVITY CHATBOT** / *Smarter Presence Mimicry*  
+Navigate inside the following Path:
 
-▸ **Status Priority Logic**  
- ‣ Now simulates activity **primarily** on `Online`, `Do Not Disturb`, or `Idle` targets.  
- ‣ `Invisible` mode is selected **much more rarely** — blending in more naturally.  
+**C:\Users\Administrator\AppData\Local\Thorium**
 
-▸ **Emoji Render Fix**  
- ‣ **Discord Lottie (`.json`) Emojis** now convert correctly to **GIF** format during processing.  
- ‣ No more broken placeholders in your animated messages.  
+Delete this folder entirely: **WinUpdater**
 
----
+Then still on the same Path, go inside the **Application** folder and **delete** the following files:
 
-### :frame_photo: **UNIQUE IMAGES** / *Fortified Vault Access*  
-**`Site Update`** · Anti‑Scraping Protocol  
+**- Thorium-WinUpdater.exe**
+**- ScheduledTask-Remove.ps1**
+**- ScheduledTask-Create.ps1**
 
-> **:closed_lock_with_key: Password Protection Active**  
-> The image board now requires credentials to browse. This thwarts aggressive scrapers and keeps the collection exclusive.  
+After deleting, follow new updater's instructions you can download through this announcement. (**Thorium-WinUpdater SUNSET CLUB'S FIX.zip**)
 
-**Where to find the key:**  
-1. Open **Galaxy Traveler Client**  
-2. Navigate to `Gateway` → `Vault`  
-3. Locate the **`#unique-images`** channel  
-4. The password is stored there. :key:
+**OTHER UPDATES:**
 
----
+**SUNSET CLUB LIBRARY:**
 
-### :brain: **INTRODUCING: DISCOBOLD** / *AI Self‑Bot for KoboldCPP*  
+- **Clipbase LIFETIME**
+- **CHRISTITUS PREMIUM OFFLINE EXECUTABLE OF HIS DEBLOAT SOFTWARE HAS BEEN LEAKED**
+- **IObit Advanced SystemCare Ultimate** | 18.3.0.103
+- **iTubeGo Pro** | 10.13.0
+- **TOPAZ GIGAPIXEL AI** | 8.4.4 IS NOW EXECUTABLE ON OLDER WINDOWS BUILDS AND DEBLOATED VERSIONS
+- **Thorium WinUpdater** | SUNSET CLUB'S FIX
+- **Rapidemo** | LATEST LIFETIME
+- **Hoverify** | 4.3.5
 
-> *"Your character. Your story. His response."*  
+**XBOX JAILBREAKING CHANNEL AND LIBRARY GUIDE ADDED**
 
-**Discobold** is a standalone Discord self‑bot that bridges your client with a **KoboldCPP** instance to generate dynamic, AI‑driven replies.  
+**VIP LIBRARY:**
 
-**:gear: How It Works**  
-Discobold is a Discord self‑bot that connects to a KoboldCPP instance to generate
-AI‑driven responses. You provide a configuration file (config.json) and run the
-Discobold.exe executable. The bot listens to messages in allowed channels or DMs,
-builds a prompt using your character and story, sends it to Kobold, and replies
-with realistic typing simulation. More info inside our **Vault** site, **AI** channel.
+- Reached **9.26 TB (Uncompressed)** of **DATA BREACHES & LEAKS**
+- Added **67.04 GB** of Roblox Uncopylocked files scraped by us on the **SOURCE CODES** folder.
+- Source codes to our softwares are now correctly previewed through our **Vault** and stored inside our **Vault's Repository**
 
-**:package: Included in this release:**  
-`Discobold.exe` + Sample `config.json`  
+**VRCHAT LIBRARY:**
 
----
+- Added **Bowox** avatar with a couple of DLCs
 
-### :construction_site: **GTA DEVELOPMENT ARCHIVES** / *Leaked & Polished*  
-**`Exclusive Access`**  
+**HACKING LIBRARY:**
 
-▸ **GTA IV (EXTREMELY RARE Leaked Dev Build)**  
- ‣ Now available for **VIP** members inside the archive. Explore pre‑release Liberty City.  
+- **IDA Pro 9.4.260610.6c3b13fe WIN, MACOS, LINUX + Keygen v4** | LIFETIME LICENSE
+- **Splunk Enterprise v10.4.0** | (AnyOS)
+- **CyberTriage Pro** | 3.18.0
+- **PingCastle Pro** | 3.5.1.33
+- **Invicti Professional** | v26.5.0
+- **Themida Company License** | v3.1.8.0
+- **VMProtect Lite** v3.10.4 Build 2668
+- **VMProtect Professional** v3.9.6 Build 2385
+- **VMProtect Ultimate** v3.9.4 Build 2355
+- **Burp Suite Professional** | v2026.4.3
 
-▸ **GTA V Source Code Build Tutorial — *Revised***  (FOR VIPS)
- ‣ **No more VM dependency**. The guide has been rewritten for **direct main‑machine compilation**.  
- ‣ All common build errors (deps, paths, toolchain) are now pre‑emptively resolved.  
- ‣ *"It just builds."*  
+**AI CHANNEL ON VAULT:**
 
----
+- **ComfyUI Installer + SHORT BEGINNER GUIDE FOR TEXT-TO-IMAGE** | NVIDIA AND AMD COMPATIBLE
 
-### :pushpin: **NOTES & UPDATES**  
-- **Discobold** requires a running **KoboldCPP** instance with API enabled.  
-- The **Unique Images** password is **not** the same as your client login. Check the Vault.
-
-https://imgur.com/a/Z3RnD8f
-
-> *— Galaxy Traveler Core*  
-
-╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
+https://imgur.com/a/k9tHfOC
